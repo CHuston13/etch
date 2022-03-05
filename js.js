@@ -18,4 +18,8 @@ function makeRows(rows, cols) {
 
 makeRows(16, 16);
 
-//mouse hover/change background color
+
+
+
+const reset= document.querySelector("erase")
+reset.addEventListener("click",erase())

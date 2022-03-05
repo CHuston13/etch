@@ -4,6 +4,8 @@
 }
 
 
+
+
 #container {
   display: grid;
   grid-gap: 1em;
@@ -20,7 +22,19 @@
 	width:960px;
 	padding: 0;
 	border: none;
+  background-color: red;
+ 
 }
+
+
+#container-background{
+  text-align: center;
+}
+
+
+
+
+
 .grid-item {
   padding: 1em;
   border: 1px solid black;
