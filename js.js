@@ -1,5 +1,4 @@
 //create the 16x16 grid
-
 const container = document.getElementById("container");
 
 function makeRows(rows, cols) {
@@ -18,8 +17,8 @@ function makeRows(rows, cols) {
 
 makeRows(16, 16);
 
-
-
-
-const reset= document.querySelector("erase")
-reset.addEventListener("click",erase())
+function backgroundColor(){
+  document.getElementById("container")
+  container.addEventListener("click",function(){})
+  container.style.backgroundColor="red"
+}
