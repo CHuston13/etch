@@ -16,9 +16,8 @@ function makeRows(rows, cols) {
 };
 
 makeRows(16, 16);
+function resetGrid(){
+  container.innerHTML='';
+  makeRows(16,16);
 
-function backgroundColor(){
-  document.getElementById("container")
-  container.addEventListener("click",function(){})
-  container.style.backgroundColor="red"
 }
