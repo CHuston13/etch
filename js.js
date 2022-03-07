@@ -12,10 +12,11 @@ function makeRows(rows, cols) {
     })
     
     container.appendChild(cell).className = "grid-item";
+
   };
 };
-
 makeRows(16, 16);
+
 function resetGrid(){
   container.innerHTML='';
   makeRows(16,16);
